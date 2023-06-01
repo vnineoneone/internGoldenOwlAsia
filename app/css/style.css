@@ -129,7 +129,6 @@ div {
 }
 
 .image-card {
-    background-color: rgb(225, 231, 237);
     border-radius: 30px;
     height: 380px;
     display: flex;
@@ -204,7 +203,6 @@ div {
     height: 90px;
     border-radius: 100%;
     margin-right: 34px;
-    background-color: rgb(84, 212, 201);
 }
 
 .image-cart img {

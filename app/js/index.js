@@ -3,10 +3,10 @@ function showAllProduct(products) {
   for (product of products) {
     $("#products").append(`
         <div class="card-child">
-            <div class="image-card">
+            <div class="image-card" style="background-color: ${product.color}">
                 <img class="img-card"
                     src="${product.image}"
-                    alt="">
+                    >
             </div>
             <div class="title">
                 ${product.name}
@@ -44,7 +44,7 @@ $("#products").delegate(".add-cart", "click", function () {
     $("#cart").append(`
         <div class="item" data-id="${productInfo.id}">
             <div class="left">
-                <div class="image-cart">
+                <div class="image-cart" style="background-color: ${productInfo.color}">
                     <img src="${productInfo.image}" alt="">
                 </div>
             </div>
