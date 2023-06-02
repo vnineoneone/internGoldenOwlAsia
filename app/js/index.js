@@ -15,7 +15,7 @@ function showAllProduct(products) {
                 ${product.description}
             </p>
             <div class="detail">
-                <p class="price">${product.price}</p>
+                <p class="price">$${product.price}</p>
                 <button class="add-cart" data-id="${product.id}">ADD TO CARD</button>
             </div>
         </div>
